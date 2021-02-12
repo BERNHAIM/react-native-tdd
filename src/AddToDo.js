@@ -13,7 +13,7 @@ export default class AddToDo extends Component {
 	onPress = () => {
 		const { onAdded } = this.props;
 		onAdded(this.state.text);
-		console.log(this.state.text);
+		// console.log(this.state.text);
 	}
 
 	render(){
